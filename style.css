@@ -208,3 +208,26 @@ label{
   align-items: center;
   justify-content: center;
 }
+footer{
+  margin-top: 7vw;
+  background-color: black;
+  color: white;
+  width: 80vw;
+  margin-left: 15vw;
+  border-radius: 2vw;
+}
+.footer-nav{
+  display: flex;
+}
+.footer-manu{
+  display: flex;
+}
+.footer-icons{
+  display: flex;
+}
+.footer-box{
+  background-color: rgb(80, 80, 80);
+  padding: 1vw 6vw;
+  display: flex;
+  text-align: center;
+}
