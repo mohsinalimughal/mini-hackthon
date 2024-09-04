@@ -153,4 +153,58 @@ hr {
   font-weight: 600;
   margin-left: 1vw;
 }
-form
+form{
+  border-radius: 3vw;
+  background-color: rgb(231, 231, 231);
+  padding: 4.5vw;
+  width: 85vw;
+  margin: auto;
+  padding-right: 0px;
+}
+input{
+  border-radius: 1vw;
+  height: 4vw;
+  margin-bottom: 2vw;
+  border: 0.5px solid black;
+  padding: 1vw;
+  color: azure;
+  font-size: 1.2vw;
+}
+label{
+  margin-bottom: 0.8vw;
+
+}
+.input-sec{
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
+.form-image{
+  width: 40vw;
+  position: relative;
+  right: -19vw;
+}
+.input-messege{
+  height: 20vw;
+}
+.radios{
+  display: flex;
+  align-items: center;
+}
+.radio{
+  margin-bottom: 0.8vw;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  width: 2vw;
+}
+.form-button{
+  background-color: black;
+  color: white ;
+  border-radius: 1vw;
+  height: 4.5vw;
+  margin-bottom: 2vw;
+  width: 41vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
