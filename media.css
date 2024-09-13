@@ -1,7 +1,5 @@
 @media screen and (max-width: 370px) {
-    body {
-      background-color: lightgreen;
-    }
+
     .main-page {
       display: flex;
       flex-direction: column;
@@ -16,21 +14,26 @@
       width: 70vw;
       margin-left: 5vw;
       text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
     .sec-1 > h1 {
       font-size: 4.9vw;
       margin-bottom: 2.5vw;
     }
     .sec-1 > p {
-      font-size: 2vw;
+      font-size: 2.5vw;
     }
     .sec-1-button {
       background-color: black;
       color: white;
-      padding: 1vw 1vw;
+      padding: 2vw 1vw;
       border-radius: 0.8vw;
-      width: 20vw;
-      margin-top: 3vw;
+      width: 25vw;
+      margin-top: 5vw;
+      
     }
     .two-boxes {
       display: flex;
