@@ -6,6 +6,9 @@
   text-decoration: none;
   font-size: 1.5vw;
 }
+body{
+  width: 100vw;
+}
 .manus {
   display: flex;
   gap: 5vw;
@@ -33,6 +36,9 @@ nav {
   justify-content: space-between;
   margin-top: 5vw;
 }
+.main-img{
+  width: 45vw;
+}
 .sec-1 {
   width: 40vw;
   margin-left: 5vw;
@@ -56,6 +62,9 @@ nav {
   margin-top: 3vw;
   margin-bottom: 3vw;
 }
+.logos{
+  width: 10vw;
+}
 .bottum {
   display: flex;
   margin-bottom: 3vw;
@@ -76,6 +85,9 @@ nav {
   gap: 3vw;
   justify-content: space-around;
   margin-bottom: 4vw;
+}
+.card-image{
+  width: 15vw;
 }
 .box-1 {
   border-radius: 1.8vw;
@@ -117,8 +129,10 @@ nav {
 .first-box > div {
   display: flex;
 }
-.first-box > div > img {
+.first-box > div > i {
   margin-left: 55vw;
+  display: flex;
+  align-items: center;
 }
 .first-box > div > p {
   font-size: 3vw;
@@ -145,8 +159,10 @@ hr {
 .next-boxes > div {
   display: flex;
 }
-.next-boxes > div > img {
+.next-boxes > div > i {
   margin-left: 55vw;
+  display: flex;
+  align-items: center;
 }
 .next-boxes > div > p {
   font-size: 3vw;
@@ -160,6 +176,7 @@ form{
   width: 85vw;
   margin: auto;
   padding-right: 0px;
+
 }
 input{
   border-radius: 1vw;
@@ -182,7 +199,10 @@ label{
 .form-image{
   width: 40vw;
   position: relative;
-  right: -19vw;
+  /* right: -19vw; */
+  background-image: url(./resources/Illustration\ \(1\).png);
+  overflow: hidden;
+
 }
 .input-messege{
   height: 20vw;
